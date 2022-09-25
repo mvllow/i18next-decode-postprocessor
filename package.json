@@ -1,0 +1,43 @@
+{
+	"name": "i18next-decode-postprocessor",
+	"version": "0.0.0",
+	"description": "Decode html entities in i18next translations.",
+	"license": "MIT",
+	"repository": "mvllow/package",
+	"funding": "https://github.com/sponsors/mvllow",
+	"author": {
+		"name": "mvllow",
+		"email": "mvllow@icloud.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"release": "np"
+	},
+	"keywords": [
+		"package"
+	],
+	"devDependencies": {
+		"ava": "^4.3.3",
+		"i18next": "^21.9.2",
+		"np": "^7.6.2",
+		"prettier": "^2.7.1",
+		"xo": "^0.52.3"
+	},
+	"prettier": {
+		"bracketSpacing": false,
+		"singleQuote": true,
+		"trailingComma": "es5",
+		"useTabs": true
+	},
+	"xo": {
+		"prettier": true
+	},
+	"dependencies": {
+		"html-entities": "^2.3.3"
+	}
+}
