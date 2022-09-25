@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "Decode html entities in i18next translations.",
 	"license": "MIT",
-	"repository": "mvllow/package",
+	"repository": "mvllow/i18next-decode-postprocessor",
 	"funding": "https://github.com/sponsors/mvllow",
 	"author": {
 		"name": "mvllow",
