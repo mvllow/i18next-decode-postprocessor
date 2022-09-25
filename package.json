@@ -1,6 +1,6 @@
 {
 	"name": "i18next-decode-postprocessor",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Decode html entities in i18next translations.",
 	"license": "MIT",
 	"repository": "mvllow/package",
