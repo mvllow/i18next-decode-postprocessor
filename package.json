@@ -18,9 +18,18 @@
 		"test": "xo && ava",
 		"release": "np"
 	},
-	"keywords": [
-		"package"
+	"files": [
+		"index.js"
 	],
+	"keywords": [
+		"i18n",
+		"i18next-plugin",
+		"i18next-postprocessor",
+		"html-entities"
+	],
+	"dependencies": {
+		"html-entities": "^2.3.3"
+	},
 	"devDependencies": {
 		"ava": "^4.3.3",
 		"i18next": "^21.9.2",
@@ -36,8 +45,5 @@
 	},
 	"xo": {
 		"prettier": true
-	},
-	"dependencies": {
-		"html-entities": "^2.3.3"
 	}
 }
